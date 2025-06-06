@@ -1,1 +1,1 @@
-# CNN-Fine-Tuning-and-Frequency-Filters
+we explored how freezing different parts of pre-trained CNNs like ResNet-18 and DenseNet-121 affects performance on a flower classification task. The goal was to see what happens when you freeze, all, 50%, 30% or 80% of the layers and fine-tune the rest. After training, we picked the best-performing setup and ran some experiments with low-pass and high-pass filters using FFT to see how different frequency components in the input images affect the model’s accuracy. Tried different radius values too, and plotted how accuracy changed.
